@@ -138,3 +138,19 @@ Now, let's look at **static** methods and attributes.
         totalSalary = totalSalary + t;
     }
     ```
+4. Go to **constructor** method and include the **setter** method `setTotal()` 
+    ```java
+    public Employee(String n, double s) {
+        ...
+        setTotal(s);
+    }
+    ```
+5. Now, go to `EmployeeTest.java` and display the total salary.
+    ```java
+    // notice that it uses the class name 'Employee' instead of e1 or e2.
+    System.out.println(Employee.getTotal())
+    ```
+
+
+
+
