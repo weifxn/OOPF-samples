@@ -19,7 +19,7 @@ public class Tv {
 		this.price = price;
 	}
 	
-	public double getPriceAfterTax(double rateOfTax) {
+	public double getTax(double rateOfTax) {
 		double tax;
 		tax = getPrice() * rateOfTax/100;
 		return tax;

@@ -10,6 +10,6 @@ public class TvTest {
 
 		System.out.println("Enter rate of tax: ");
 		int rate = input.nextInt();
-		System.out.println("Amount of tax to be paid: " + tv1.getPriceAfterTax(rate));
+		System.out.println("Amount of tax to be paid: " + tv1.getTax(rate));
 	}	
 }
